@@ -164,7 +164,7 @@ function sumUpTo(n){
   }
 }
 ```
-There are really two steps involved.  First Javascript repeatedly calls the sumUpTo function until it reaches the stopping point (the base case), and then once it hits the base case, it can begin to resolve the other function calls.  Believe it or not, you've see this process before.  You've seen it every time a function calls another function.  For example,
+There are really two steps involved.  First Javascript repeatedly calls the sumUpTo function until it reaches the stopping point (the base case), and then once it hits the base case, it can begin to resolve the other function calls.  Believe it or not, you've seen this process before.  You've seen it every time a function calls another function.  For example,
 
 ```javascript
   function sumUpToFive(){
